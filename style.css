@@ -34,6 +34,7 @@ img {
     font-weight: 700;
     padding: 15px;
     border-radius: 5px;
+    cursor:pointer;
 }
 
 .fa-solid {
@@ -57,6 +58,7 @@ img {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
 }
 
 .buttons {
@@ -66,6 +68,7 @@ img {
     padding: 20px;
     border-radius: 5px;
     margin: 15px 15px 0px 15px;
+    cursor: pointer;
 }
 
 .container-one {
@@ -79,7 +82,9 @@ img {
     margin-right: 100px;
 
 }
-
+ a{
+    text-decoration: none;
+ }
 .match-news {
     display: flex;
     flex-direction: column;

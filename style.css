@@ -35,8 +35,18 @@ img {
     padding: 15px;
     border-radius: 5px;
     cursor:pointer;
+    box-shadow: 0 5px rgb(199, 197, 197);
+    transition: width 2s;
 }
-
+.first-button:hover{
+    width: 200px;
+    background-color: red;
+}
+.first-button:active {
+  background-color: rgb(233, 210, 108);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
 .fa-solid {
     padding-left: 10px;
 }
@@ -89,6 +99,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 1px 1px #d0cece;
 }
 
 .match-news img {
@@ -100,10 +111,16 @@ img {
 
     margin: 30px;
 }
+.transfer-button{
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
 .footer-section{
     background-color: black;
     height: 350px;
     width: 100%;
+    margin-top: 60px;
     padding-top: 70px;
 }
 hr{
@@ -126,4 +143,7 @@ footer{
     justify-content: space-evenly;
     width: 50%;
     margin: 0 auto;
+}
+@media screen and (max-width: 566px) {
+          
 }

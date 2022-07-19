@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Gantari:wght@600&family=Josefin+Sans:ital,wght@1,600&family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    margin: 35px 100px 100px 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+}
+
+.text-area {
+    color: white;
+    padding-right: 100px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+img {
+    Width: 500px;
+    Height: 600px;
+}
+
+.first-button {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+.match-details {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 312px;
+    margin-left: 100px;
+    background: #161616;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 15px;
+
+}
+
+.button-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.buttons {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 15px 0px 15px;
+}
+
+.container-one {
+    display: flex;
+}
+
+.match-news-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-right: 100px;
+
+}
+
+.match-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.match-news img {
+    width: 312px;
+    height: 175px;
+}
+
+.textarea-two {
+
+    margin: 30px;
+}
+.footer-section{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    padding-top: 70px;
+}
+hr{
+    margin: 5px 200px 50px 200px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+.contact-area{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.social-link {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}

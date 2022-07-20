@@ -350,12 +350,6 @@ footer {
     .match-news {
         margin: 50px;
     }
-
-    .contact-area {
-        display: flex;
-        flex-direction: column;
-    }
-
     .footer-section {
         height: 400px;
         width: 100%;

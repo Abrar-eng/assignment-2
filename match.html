@@ -30,6 +30,28 @@
             margin-left: 500px;
             margin-right: 100px;
         }
+
+        .match-news {
+            padding: 25px;
+            margin-left: -20px;
+        }
+
+        @media screen and (max-width:576px) {
+            .match-news-list {
+                grid-template-columns: repeat(1, 1fr);
+                margin-top: 360px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+        @media screen and (min-width: 577px) and (max-width: 992px){
+            .match-news-list {
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 360px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
     </style>
 </head>
 

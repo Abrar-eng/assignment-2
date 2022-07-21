@@ -338,6 +338,7 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .match-news-list {
@@ -349,6 +350,10 @@ footer {
 
     .match-news {
         margin: 50px;
+    }
+    .buttons{
+        padding-right: 70px;
+        padding-left: 70px;
     }
     .footer-section {
         height: 400px;
